@@ -39,17 +39,24 @@ body {
     color: #404BBF;
 }
 
-.addres-link {
-    color: #434455;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.heder-address {
     font-style: normal;
-
 }
 
-.addres-link:hover,
-.addres-link:focus{
-    color: #404bbf
+.heder-adresss-list {}
+
+.heder-address-item {}
+
+
+.heder-address-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.heder-address-link:hover,
+.heder-address-link:focus{
+    color: #404bbf;
 }
 
 .hero {
@@ -93,6 +100,8 @@ body {
     letter-spacing: 0.02em;
 }
 
+----------------------------------------------------
+
 .team {
     background-color: #F4F4FD;
 }
@@ -104,6 +113,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     text-align: center;
 }
 
@@ -151,6 +161,10 @@ body {
     color:#F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;   
+}
+
+.portfolio {
+    background: #FFF;
 }
 
 .portfolio-title {
