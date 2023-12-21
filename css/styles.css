@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #434455;
+    background-color: #FFF;
 }
 
 .link {
@@ -12,23 +13,9 @@ body {
     list-style: none;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .logo {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -37,7 +24,7 @@ body {
 }
 
 .logo-part {
-    color:#4D5AE5;
+    color: #2E2F42;
 }
 
 .nav-link {
@@ -53,14 +40,16 @@ body {
 }
 
 .addres-link {
+    color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
 
 }
 
 .addres-link:hover,
 .addres-link:focus{
-    color: #4048bf
+    color: #404bbf
 }
 
 .hero {
@@ -73,6 +62,7 @@ body {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .hero-btn {
@@ -81,6 +71,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
+    cursor: pointer
 }
 
 .hero-btn:hover,
@@ -103,12 +94,21 @@ body {
 }
 
 .team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
     color:#2E2F42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
+}
+
+.team-item {
+    background-color: #FFFFFF;
 }
 
 .name {
@@ -126,7 +126,7 @@ body {
 
 .footer-logo {
     color:#4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -153,13 +153,14 @@ body {
     letter-spacing: 0.02em;   
 }
 
-.portfolio {
+.portfolio-title {
     color:#2E2F42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .portfolio-item {
