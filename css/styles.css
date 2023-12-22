@@ -60,7 +60,7 @@ body {
 }
 
 .hero {
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 
 .hero-title {
@@ -100,9 +100,9 @@ body {
     letter-spacing: 0.02em;
 }
 
-----------------------------------------------------
+/* ---------------------------------------------------- */
 
-.team {
+.team-section {
     background-color: #F4F4FD;
 }
 
@@ -113,7 +113,6 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    text-align: center;
     text-align: center;
 }
 
